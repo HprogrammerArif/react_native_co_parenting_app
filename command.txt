@@ -1,0 +1,39 @@
+Step 1: Use the official Expo upgrade command
+*Run this first — it safely updates all Expo-managed packages to their correct versions for SDK 53:*
+
+**npx expo install --fix**
+
+
+
+**Step 3: Clear caches (optional but recommended)**
+To avoid version mismatch caching issues:
+
+
+
+**rm -rf node\_modules**
+
+**rm package-lock.json # or yarn.lock / pnpm-lock.yaml**
+
+**npm cache clean --force**
+
+**npm install**
+
+
+
+**Step 4: Verify**
+
+npx expo-doctor
+
+
+
+
+5. npx expo prebuild
+6. npm run android
+
+
+watchman watch-del-all
+rm -rf node_modules
+rm -rf .expo
+rm -rf android/app/build
+rm -rf metro-cache
+npm cache clean --force
