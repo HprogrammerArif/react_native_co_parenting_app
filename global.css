@@ -40,6 +40,9 @@
     .custom-btn {
         @apply bg-primary rounded-full p-3 w-full flex flex-row justify-center;
     }
+    .custom-btn-gradient {
+        @apply bg-gradient-to-l from-primary to-secondary rounded-full p-3 w-full flex flex-row justify-center;
+    }
 
     .custom-header {
         @apply w-full flex flex-row items-center justify-between mb-10;

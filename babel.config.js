@@ -7,7 +7,7 @@ module.exports = function (api) {
     ],
     plugins: [
       // Required for expo-router to transform the file-based routes entry
-      // "expo-router/babel",
+      "expo-router/babel",
       // If you're using react-native-reanimated (installed), the plugin should be last
       "react-native-reanimated/plugin",
     ],

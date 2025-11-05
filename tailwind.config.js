@@ -18,7 +18,8 @@ module.exports = {
           200: "#878787",
         },
         dark: {
-          100: "#181C2E",
+         primary: "#262626",
+         secondary: "#525252",
         },
         error: "#F14141",
         success: "#2F9B65",
